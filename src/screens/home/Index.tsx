@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>Nome do evento</Text>
-      <Text style={styles.eventDate}>Sexta, 7 de novembro de 2023</Text>
+      <Text style={styles.eventDate}>Terça, 7 de novembro de 2023</Text>
       <View style={styles.form}>
         <TextInput
           style={styles.input}
@@ -50,7 +50,7 @@ export default function Home() {
         data={participants}
         keyExtractor={(item) => item}
         showsVerticalScrollIndicator={false}
-        ListEmptyComponent={() => <Text style={styles.listTxt}>Ningém chegou no evento ainda? Adicione participantes na sua lista!</Text>}
+        ListEmptyComponent={() => <Text style={styles.listTxt}>Ninguém chegou no evento ainda? Adicione participantes na sua lista!</Text>}
         renderItem={({ item }) => <Participant key={item} name={item} onRemove={() => handleParticipantRemove(item)} />}
       />
     </View>
