@@ -1,6 +1,6 @@
 # imHere
  
-Projeto desenvolvido no curso de ract-native da Rocketseat
+1º Projeto desenvolvido no curso de react-native da Rocketseat 🚀
 
 Aplicação para gerenciar os participantes presentes em eventos, como em palestrar e workshop.
 
